@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant and Chemical Database</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#search">Search</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="data.json" download>Download</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h1>Welcome to the Plant and Chemical Database</h1>
+    <p>Explore data on various plants and their chemical compositions.</p>
+  </section>
+
+  <section id="search">
+    <input type="text" id="searchBox" placeholder="Search for plants or chemicals">
+    <button onclick="searchData()">Search</button>
+    <div id="searchResults"></div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>This database provides information on plants and their associated chemicals.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
